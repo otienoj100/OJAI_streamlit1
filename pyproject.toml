@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "improver1"
+version = "0.1.0"
+description = ""
+authors = ["Ohjizzo"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.13.5"
+streamlit = "^1.37.0"
+langchain = "^0.2.11"
+langchain-openai = "^0.1.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
