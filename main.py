@@ -21,7 +21,7 @@ def generate_response(topic):
     
     Your response should be in this format:
     First, print the blog post.
-    Second, in 5 bullet points, summarize the key takeaways from the blog post.
+    #Second, in 5 bullet points, summarize the key takeaways from the blog post.
     Then, sum the total number of words on it and print the result like this: This post has X words.
     """
     prompt = PromptTemplate(
